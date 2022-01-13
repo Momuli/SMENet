@@ -1,5 +1,5 @@
-# SME-Net
-This is a pytorch implementation of SM-ENet
+# SMENet
+This is a pytorch implementation of SMENet
 
 ## Requirements
 1. pytorch == 1.1.0
@@ -55,7 +55,7 @@ if you want to train your own dataset:
 ## Eval
 if you want to eval trained model:
 ```
-cd ./SMENet/eval.py
-modify parser.add_argument('--trained_model', default='weights/*.pth', type=str, help='Trained state_dict file path to open')
-python eval.py
+1. cd ./SMENet/eval.py
+2. Modify parser.add_argument('--trained_model', default='weights/*.pth', type=str, help='Trained state_dict file path to open')
+3. python eval.py
 ```
