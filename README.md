@@ -1,5 +1,5 @@
-# SMENet
-This is a pytorch implementation of SMENet
+# SME-Net
+This is a pytorch implementation of SM-ENet
 
 ## Requirements
 1. pytorch == 1.1.0
